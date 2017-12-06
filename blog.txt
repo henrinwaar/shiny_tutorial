@@ -1,0 +1,22 @@
+Authors: Henri Desquesses / Thomas Jassem
+
+Title: Shiny Tutorial Report
+
+Problems found during the exercises:
+- Understand the way of interacting between user interface patrt and server one
+- Understand the role of the helpers.R file
+- For whom has never used bootstrap it is a little bit long to learn how to use all the display organization (grid,...)
+- Not understood very well the exercise 7 and how to share an R application
+
+Personal comments:
+- R is a really advanced friendly language, useful to separate ui, server and helpers with all the user functions
+- Easy to handle the user interface with the close similarity between shiny and bootstrap
+- One of us already has an experience in web application which has been really useful
+
+Constructive review:
+- It could be useful to study a little further the several examples of the shiny gallery because they provide a lot
+  typical use case which are easy to reuse
+- The tutorial is mainly based on map displays of the data, it could be better if we could have studied some examples
+  of other graphical representations
+
+Estimated time to complete the exercise: 3 hours for the code itself, 1 hour for the structure of the delivery
