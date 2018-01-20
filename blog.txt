@@ -1,22 +1,23 @@
 Authors: Henri Desquesses / Thomas Jassem
 
-Title: Shiny Tutorial Report
+Title: Innovative design tool Report
 
 Problems found during the exercises:
 - Understand the way of interacting between user interface patrt and server one
-- Understand the role of the helpers.R file
-- For whom has never used bootstrap it is a little bit long to learn how to use all the display organization (grid,...)
-- Not understood very well the exercise 7 and how to share an R application
+- Difficulties to use particular libraries such as plotly with shiny 
+- Difficulties to create layers on the leaflet map so we abandonned
+- We didn't manage to make queries in the server part to display the masters, the function was working manually
+  (it is commented in the helper.R file) but displays random results in the shiny app
 
 Personal comments:
-- R is a really advanced friendly language, useful to separate ui, server and helpers with all the user functions
-- Easy to handle the user interface with the close similarity between shiny and bootstrap
-- One of us already has an experience in web application which has been really useful
+- A lot of libraries are available both for the display and the data analysis which allows to simply run 
+  clustering for example and do interactive plots
+- Maybe this quantity of libraries can be a trap sometimes because you don't which one to choose as several can allow
+  you to do what you want
 
 Constructive review:
-- It could be useful to study a little further the several examples of the shiny gallery because they provide a lot
-  typical use case which are easy to reuse
-- The tutorial is mainly based on map displays of the data, it could be better if we could have studied some examples
-  of other graphical representations
+- We didn't know when to stop addinf functionalities, maybe it could be better to have a more precise specifications
+- But in a personal point of view this way of free development of the application was really instructive and we have
+  learned a lot things we will reuse during our respective internships
 
-Estimated time to complete the exercise: 3 hours for the code itself, 1 hour for the structure of the delivery
+Estimated time to complete the exercise: 6 days
